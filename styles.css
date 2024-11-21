@@ -1,0 +1,181 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-image: url(Imágenes/Lang\ Lang\ fondo\ blanco.jpg);
+    background-attachment: fixed;  
+    background-color: #f0f8ff; /* Color de fondo claro */
+    color: #2f4f4f; /* Color de texto oscuro */
+}
+
+header {
+    background-color: #000000; /* Color de fondo del encabezado */
+    color: #ffffff; /* Color de texto del encabezado */
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 5px solid #5f9ea0; /* Borde inferior */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border-radius: 0 0 10px 10px; /* Bordes redondeados */
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff; /* Color de los enlaces */
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+nav ul li a:hover {
+    background-color: #ffffff4d; /* Color de fondo al pasar el ratón */
+    border-radius: 5px;
+}
+
+main {
+    padding: 5rem;
+}
+
+footer {
+    background-color: #000000; /* Color de fondo del pie de página */
+    color: #ffffff; /* Color de texto del pie de página */
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 5px solid #5f9ea0; /* Borde superior */
+    height: 45px;
+}
+
+/* Estilos específicos */
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery figure {
+    margin: 1rem;
+    max-width: 500px;
+}
+
+.gallery img {
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.imgPrinc {
+    height: 35rem;
+    width: 25rem;
+}
+
+.imgpro {
+    width: 500px;
+    height: 300px;
+}
+
+.gallery figcaption {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.about, .production, .works, .blog, .contact {
+    margin-bottom: 2rem;
+}
+
+.about p, .production p, .works p, .blog p, .contact p {
+    line-height: 1.8; /* Espaciado de línea */
+}
+
+.about {
+    background-color: rgba(225, 225, 225, 0.8) ;
+    padding: 1rem;
+}
+
+.blog article {
+    margin-bottom: 2rem;
+}
+
+.blog article h3 {
+    margin-bottom: 0.5rem;
+    color: #2f4f4f; /* Color de los títulos de los artículos */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff; /* Color de fondo del formulario */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #2f4f4f; /* Color de fondo del botón */
+    color: #ffffff; /* Color de texto del botón */
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.contact-form button:hover {
+    background-color: #5f9ea0; /* Color de fondo del botón al pasar el ratón */
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+nav {
+    font-family:'Trebuchet MS';
+}
+
+li {
+border-style:solid;
+border-radius: 30%;
+}
+
+li:hover{
+    all: unset;
+}
+
+#pini {
+    background-color: rgba(225, 225, 225, 0.8) ;
+    height: 40px;
+    padding: 1rem;
+}
